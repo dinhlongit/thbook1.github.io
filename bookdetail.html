@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title> Thông tin sản phẩm </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+ 	<script type="text/javascript" src="js/1.js"></script>
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+	<link rel="stylesheet" href="vendor/font-awesome.css">
+ 	<link rel="stylesheet" href="css/1.css">
+
+</head>
+<body>
+
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v4.0"></script>
+ 	
+	<div class="menutren">
+
+		        <nav class="navbar navbar-dark bg-success">
+		        	<div class="container">
+		        		   <a class="navbar-brand" href="#">THBOOK</a>
+
+		        		
+
+		        	
+		          <button class="navbar-toggler hidden-sm-up float-xs-right" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+		          </button>
+		          <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+		         
+					
+					
+
+
+		            <ul class="nav navbar-nav float-xs-right">
+
+		            	<li class="nav-item">
+		            	 <form class="form-inline">
+							    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+							    <button class="btn btn-info mr-3" type="submit">Search</button>
+						</form>
+
+						</li>
+
+						<li class="nav-item ">
+
+<button id="cartclick"  type="submit" class="btn btn-success" data-toggle="modal" data-target="#exampleModalLong">
+<i aria-hidden="true" class="fa fa-shopping-cart cartt"></i>
+</button>
+
+
+		             
+		              </li>
+
+		              <li class="nav-item">
+		                <button class="btn btn-info" type="submit">Đăng ký</button>
+		              </li>
+		              <li class="nav-item">
+		                <button class="btn btn-info" type="submit">Đăng nhập
+		                </button>
+		              </li>
+		              
+		              
+		            </ul>
+		          </div>
+
+		          </div>
+		        </nav>
+	</div>
+	
+	<br>
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="#">Trang Chủ</a></li>
+			<li class="breadcrumb-item active" aria-current="page">Sách Toán Cao Cấp</li>
+		</ol>
+	</nav>
+
+
+	<div id="book">
+		
+   <div class="container">
+   	<div class="row">
+
+   		<div style="border: 1px solid green" class="col-md-4">			
+   			 <div class="big-image">
+                    <img src="./images/sach.gif" style="width: 100%; height: 100%; background: #ffffff" class="img-responsive">
+
+                                    </div>
+
+
+
+
+	</div>
+	<div  class="col-md-8">
+	<div class="information">
+		<div class="title">
+                        <h2>SÁCH ÔN LUYỆN THI TN VẬT LÍ</h2>
+                        <hr>
+                    </div>
+                    <div class="order">
+                    	  <span class="price">
+                            <span class="sale">GIÁ : 55,000 VNĐ</span>
+                            <!-- <s class="origin">139.000 đ</s> -->
+                            <!-- <span class="percent label label-warning">-21%</span> -->
+                        </span>
+
+                        <span>
+
+                        <!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-xl  modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+
+        <h2 class="modal-title" id="exampleModalLongTitle"> <i class="fa fa-cart-plus"></i>  Giỏ hàng  </h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <div class="container"> 
+ <table id="cart" class="table table-hover table-condensed"> 
+  <thead> 
+   <tr> 
+    <th style="width:50%">Tên sản phẩm</th> 
+    <th style="width:10%">Giá</th> 
+    <th style="width:8%">Số lượng</th> 
+    <th style="width:22%" class="text-center">Thành tiền</th> 
+    <th style="width:10%"> </th> 
+   </tr> 
+  </thead> 
+  <tbody><tr> 
+   <td data-th="Product"> 
+    <div class="row"> 
+     <div class="col-sm-2 hidden-xs"><img src="https://ccbook.vn/wordpress/wp-content/uploads/2018/07/M%C3%B4n-L%E1%BB%8Bch-s%E1%BB%AD-e1531547199366.png" alt="Sản phẩm 1" class="img-responsive" width="100">
+     </div> 
+     <div class="col-sm-10"> 
+      <h4 class="nomargin">Chinh phục Vật Lý 11</h4> 
+      <p>Sách luyện thi THPT Quốc gia môn Vật lý...</p> 
+     </div> 
+    </div> 
+   </td> 
+   <td data-th="Price">200.000 đ</td> 
+   <td data-th="Quantity"><input class="form-control text-center" value="1" type="number">
+   </td> 
+   <td data-th="Subtotal" class="text-center">200.000 đ</td> 
+   <td class="actions" data-th="">
+
+    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i>
+    </button>
+   </td> 
+  </tr> 
+  <tr> 
+   <td data-th="Product"> 
+    <div class="row"> 
+     <div class="col-sm-2 hidden-xs"><img src="https://ccbook.vn/wordpress/wp-content/uploads/2018/07/M%C3%B4n-L%E1%BB%8Bch-s%E1%BB%AD-e1531547199366.png" alt="Sản phẩm 1" class="img-responsive" width="100">
+     </div> 
+     <div class="col-sm-10"> 
+      <h4 class="nomargin">Casio Toán 12</h4> 
+      <p>Sách luyện thi THPT Quốc gia môn Toán ...</p> 
+     </div> 
+    </div> 
+   </td> 
+   <td data-th="Price">300.000 đ</td> 
+   <td data-th="Quantity"><input class="form-control text-center" value="1" type="number">
+   </td> 
+   <td data-th="Subtotal" class="text-center">300.000 đ</td> 
+   <td class="actions" data-th="">
+  
+    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i>
+    </button>
+   </td> 
+  </tr> 
+  </tbody><tfoot> 
+  
+   <tr> 
+    <td><a href="#" class="btn btn-warning"><i class="fa fa-angle-left"></i> Tiếp tục mua hàng</a>
+    </td> 
+    <td colspan="2" class="hidden-xs"> </td> 
+    <td class="hidden-xs text-center"><strong>Tổng tiền 500.000 đ</strong>
+    </td> 
+    <td><a href="#" class="btn btn-success btn-block">Thanh toán <i class="fa fa-angle-right"></i></a>
+    </td> 
+   </tr> 
+  </tfoot> 
+ </table>
+</div>
+      </div>
+      <!--
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> 
+-->
+    </div>
+  </div>
+</div>
+
+
+                        	
+                        </span>
+
+<!-- Button trigger modal -->
+<button id="cartclick" style="padding: 10px; margin-bottom: -left: 210px; margin0px;" type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalLong">
+<i aria-hidden="true" class="fa fa-cart-plus"></i><span> Thêm vào giỏ hàng</span>
+</button>
+
+                        
+                        
+                    </div>
+
+
+<hr>
+
+
+
+
+                    </div>
+
+                  <div class="reccomendation">
+                  	
+                  	     <pre>
+Có đủ tất cả các dạng bài tập hay xuất hiện trong đề thi THPT QG.
+Bài tập trong các cuốn sách được phân dạngmodz đầy đủ từ NHẬN BIẾT, THÔNG HIỂU,VẬN DỤNG, đến VẬN DỤNG CAO. Học sinh sẽ không cảm thấy bị bỡ ngỡ khi gặp câu hỏi lạ, câu hỏi hóc búa hay câu hỏi gây nhiễu để đạt điểm tối đa.
+
+ Hướng dẫn phương pháp, công thức giải nhanh câu hỏi trắc nghiệm.
+Toàn bộ các dạng bài tập đều có phương pháp giải nhanh và công thức tính cho đáp án trong thời gian ngắn nhất. Mỗi dạng bài sẽ có ví dụ minh họa, bài tập tự luyện kèm theo đáp án và lời giải chi tiết. Em sẽ khắc sâu được kiến thức, phá bẫy câu hỏi lấy điểm 9,10.
+
+ Cách bấm máy tính cầm tay ra ngay đáp án chưa đến 60S/câu.
+Không chỉ đưa ra phương pháp và công thức giải nhanh câu hỏi trắc nghiệm bài thi các môn khối A, bộ sách Đột phá 8+ luyện thi khối A này còn hướng dẫn em cách sử dụng máy tính cầm tay tìm ra ngay đáp án. Thời gian hoàn thành một câu hỏi chưa đến 60s. Nhờ đó, em không còn sợ đề dài hay đề khó.  
+                             </pre>
+                  </div>
+
+
+</div>
+
+   		</div>
+   		
+   	</div>	   
+   </div>
+   <br>
+
+
+
+
+
+
+
+
+	</div>
+
+    
+
+ 
+ 	<nav class="navbar navbar-light bg-success justify-content-between pt-1 pb-1">
+ 		<div class="container">
+
+		<div class="row">
+			<div class="col-sm-6">
+				<h3 class="title">
+                    <span class="text-uppercase">
+                        Đăng ký ngay bây giờ
+                    </span>
+                </h3>
+                <div class="description">
+                    Đăng ký để nhận thông báo về những cuốn sách mới
+                </div>
+			</div>
+		
+
+ 				<div class="col-sm-6">
+ 					 <form class="form-inline float-xs-right pt-1">
+    		<input class="form-control" type="search" placeholder="E-mail của bạn" aria-label="Search">
+
+     		<button class="btn btn-info" type="submit">Submit</button>
+  		</form>
+ 				</div>
+
+ 				</div>
+ </div>
+ 		 
+</nav>
+
+
+<div class="info pt-3 pb-3">
+	<div class="container">
+	<div class="row">
+		<div class="col-sm-3">
+			<h1>THBOOK</h1>		
+			<p><i class="fa fa-phone"></i> PHONE: 0905888888</p>
+			<p><i class="fa fa-envelope"></i> E-mail: admin@thbook.com</p>
+		</div>
+		<div class="col-sm-3">
+			<b>HƯỚNG DẪN</b>
+			<hr>
+			<p>Hướng dẫn mua hàng</p>
+			<p>Chính sách bảo mật</p>
+			<p>Điều khoản sử dụng</p>
+			<p>Quy định đổi trả hàng</p>
+			<p>Chính sách vận chuyển</p>
+
+		</div>
+		<div class="col-sm-3">
+			<b>GIỚI THIỆU</b>
+			<hr>
+			<p>Về chúng tôi</p>
+			<p>Tài liệu hay</p>
+			<p>Tuyển dụng</p>
+		</div>
+		<div class="col-sm-3">
+			<b>KẾT NỐI VỚI CHÚNG TÔI </b>
+			<hr>
+
+			<div class="fb-page" data-href="https://www.facebook.com/tailieuonthi2k5/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/tailieuonthi2k5/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/tailieuonthi2k5/">Tài liệu ôn thi 2k5</a></blockquote></div>
+		</div>
+	</div>
+	</div>
+</div>
+
+
+	
+
+
+	<div class="footer bg-success mt-2">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+
+				<p class="float-xs-right"><a href="#" class="lentren"><i class="fa fa-arrow-up" aria-hidden="true"></i>
+</a>BACK TO TOP</p>
+					<p>Nhà sách THBOOK - Bản quyền © 2019</p>
+				</div>
+				
+				
+				
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
